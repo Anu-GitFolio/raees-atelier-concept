@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "raeesi",
+    "name": "Raeesi",
+    "nameAr": "رئيسي",
+    "category": "perfume",
+    "family": "floral",
+    "notes": [
+      "Oud",
+      "Rose",
+      "Ambergris"
+    ],
+    "notesAr": [
+      "عود",
+      "ورد",
+      "عنبر رمادي"
+    ],
+    "description": "Oud, rose and ambergris in a layered composition.",
+    "descriptionAr": "تكوين متعدد الطبقات من العود والورد والعنبر الرمادي.",
+    "images": [
+      "/assets/raeesi-0.webp",
+      "/assets/raeesi-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/raeesi",
+    "variants": [
+      {
+        "id": "51483306852635",
+        "label": "Standard",
+        "price": 35000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "oud-safrano",
+    "name": "Oud Safrano",
+    "nameAr": "عود سافرانو",
+    "category": "perfume",
+    "family": "spiced",
+    "notes": [
+      "Oud",
+      "Saffron",
+      "Amber"
+    ],
+    "notesAr": [
+      "عود",
+      "زعفران",
+      "عنبر"
+    ],
+    "description": "Oud warmed by saffron, nutmeg and amber.",
+    "descriptionAr": "عود تدفئه نفحات الزعفران وجوزة الطيب والعنبر.",
+    "images": [
+      "/assets/oud-safrano-0.webp",
+      "/assets/oud-safrano-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/oud-safrano",
+    "variants": [
+      {
+        "id": "51483291812123",
+        "label": "Standard",
+        "price": 9900,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "azule",
+    "name": "Azule",
+    "nameAr": "أزول",
+    "category": "perfume",
+    "family": "fresh",
+    "notes": [
+      "Citrus",
+      "Neroli",
+      "Black tea"
+    ],
+    "notesAr": [
+      "حمضيات",
+      "نيرولي",
+      "شاي أسود"
+    ],
+    "description": "Citrus brightness, with neroli and black tea.",
+    "descriptionAr": "إشراقة الحمضيات مع النيرولي والشاي الأسود.",
+    "images": [
+      "/assets/azule-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/azule",
+    "variants": [
+      {
+        "id": "51483243512091",
+        "label": "Standard",
+        "price": 14900,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "rutbah",
+    "name": "Rutbah",
+    "nameAr": "رتبة",
+    "category": "perfume",
+    "family": "woody",
+    "notes": [
+      "Oud",
+      "Coconut",
+      "White flowers"
+    ],
+    "notesAr": [
+      "عود",
+      "جوز الهند",
+      "زهور بيضاء"
+    ],
+    "description": "Oud and coconut meet soft floral notes.",
+    "descriptionAr": "يلتقي العود وجوز الهند بنفحات زهرية ناعمة.",
+    "images": [
+      "/assets/rutbah-0.webp",
+      "/assets/rutbah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/rutbah",
+    "variants": [
+      {
+        "id": "51483314651419",
+        "label": "Standard",
+        "price": 35000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "zura-yaumi",
+    "name": "Zura Yaumi",
+    "nameAr": "زورا يومي",
+    "category": "oud",
+    "family": "sweet",
+    "notes": [
+      "Sweet",
+      "Oudy"
+    ],
+    "notesAr": [
+      "حلو",
+      "عودي"
+    ],
+    "description": "Sweet, oudy wood for a daily incense ritual.",
+    "descriptionAr": "خشب بنفحات حلوة وعودية لطقوس التبخير اليومية.",
+    "images": [
+      "/assets/zura-yaumi-0.webp",
+      "/assets/zura-yaumi-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/zura-yaumi",
+    "variants": [
+      {
+        "id": "51483428618523",
+        "label": "1 Tola (12 grams)",
+        "price": 12500,
+        "available": true
+      },
+      {
+        "id": "51483428651291",
+        "label": "5 Tola (60 grams)",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51483428684059",
+        "label": "10 Tola (120 grams)",
+        "price": 90000,
+        "available": true
+      },
+      {
+        "id": "51483428716827",
+        "label": "250 grams",
+        "price": 165000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-royal-trat",
+    "name": "Dehen Oud Royal Trat",
+    "nameAr": "دهن عود رويال ترات",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-royal-trat-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-royal-trat",
+    "variants": [
+      {
+        "id": "51485118300443",
+        "label": "3ML",
+        "price": 25000,
+        "available": true
+      },
+      {
+        "id": "51485118333211",
+        "label": "6ML",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51485118365979",
+        "label": "12ML",
+        "price": 100000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "spotlight",
+    "name": "Spotlight",
+    "nameAr": "سبوتلايت",
+    "category": "perfume",
+    "family": "sweet",
+    "notes": [
+      "Orange",
+      "Fruity notes",
+      "Amber"
+    ],
+    "notesAr": [
+      "برتقال",
+      "نفحات فاكهية",
+      "عنبر"
+    ],
+    "description": "A fruity opening with a warm amber finish.",
+    "descriptionAr": "افتتاحية فاكهية وخاتمة دافئة من العنبر.",
+    "images": [
+      "/assets/spotlight-0.webp",
+      "/assets/spotlight-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/spotlight",
+    "variants": [
+      {
+        "id": "51483315470619",
+        "label": "Standard",
+        "price": 14900,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "de-ja-vu",
+    "name": "De Ja Vu",
+    "nameAr": "ديجا فو",
+    "category": "perfume",
+    "family": "floral",
+    "notes": [
+      "Rose",
+      "Pink pepper",
+      "Oud"
+    ],
+    "notesAr": [
+      "ورد",
+      "فلفل وردي",
+      "عود"
+    ],
+    "description": "Rose, pink pepper and oud come together.",
+    "descriptionAr": "تجتمع نفحات الورد والفلفل الوردي والعود.",
+    "images": [
+      "/assets/de-ja-vu-0.webp",
+      "/assets/de-ja-vu-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/de-ja-vu",
+    "variants": [
+      {
+        "id": "51483247837467",
+        "label": "Standard",
+        "price": 14900,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "nameAr": "روبي",
+    "category": "spray",
+    "family": "unclassified",
+    "notes": [],
+    "notesAr": [],
+    "description": "Discover the All Over Spray collection.",
+    "descriptionAr": "اكتشف مجموعة بخاخات الجسم.",
+    "images": [
+      "/assets/ruby-0.webp",
+      "/assets/ruby-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/ruby",
+    "variants": [
+      {
+        "id": "51587845488923",
+        "label": "Standard",
+        "price": 18000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "sapphire",
+    "name": "Sapphire",
+    "nameAr": "سافاير",
+    "category": "spray",
+    "family": "unclassified",
+    "notes": [],
+    "notesAr": [],
+    "description": "Discover the All Over Spray collection.",
+    "descriptionAr": "اكتشف مجموعة بخاخات الجسم.",
+    "images": [
+      "/assets/sapphire-0.webp",
+      "/assets/sapphire-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/sapphire",
+    "variants": [
+      {
+        "id": "51587844833563",
+        "label": "Standard",
+        "price": 18000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-seylani-qadim",
+    "name": "Dehen Oud Seylani Qadim",
+    "nameAr": "دهن عود سيلاني قديم",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-seylani-qadim-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-seylani-qadim",
+    "variants": [
+      {
+        "id": "51485121904923",
+        "label": "3ML",
+        "price": 60000,
+        "available": true
+      },
+      {
+        "id": "51485121937691",
+        "label": "6ML",
+        "price": 120000,
+        "available": true
+      },
+      {
+        "id": "51485121970459",
+        "label": "12ML",
+        "price": 180000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-royal-prachin",
+    "name": "Dehen Oud Royal Prachin",
+    "nameAr": "دهن عود رويال براشين",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-royal-prachin-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-royal-prachin",
+    "variants": [
+      {
+        "id": "51485114925339",
+        "label": "3ML",
+        "price": 25000,
+        "available": true
+      },
+      {
+        "id": "51485114958107",
+        "label": "6ML",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51485114990875",
+        "label": "12ML",
+        "price": 100000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-hindi-seyufi",
+    "name": "Dehnal Oud Hindi Seyufi",
+    "nameAr": "دهن عود هندي سيوفي",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-hindi-seyufi-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-hindi-seyufi",
+    "variants": [
+      {
+        "id": "51485109420315",
+        "label": "3ML",
+        "price": 25000,
+        "available": true
+      },
+      {
+        "id": "51485109453083",
+        "label": "6ML",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51485109485851",
+        "label": "12ML",
+        "price": 100000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-hindi-qadim",
+    "name": "Dehen Oud Hindi Qadim (25 YEARS)",
+    "nameAr": "دهن عود هندي قديم",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-hindi-qadim-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-hindi-qadim",
+    "variants": [
+      {
+        "id": "51485101424923",
+        "label": "3ML",
+        "price": 100000,
+        "available": true
+      },
+      {
+        "id": "51485101457691",
+        "label": "6ML",
+        "price": 200000,
+        "available": true
+      },
+      {
+        "id": "51485101490459",
+        "label": "12ML",
+        "price": 400000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "dehnal-oud-hindi-khaas-al-khaas",
+    "name": "Dehnal Oud Hindi khaas Al Khaas",
+    "nameAr": "دهن عود هندي خاص الخاص",
+    "category": "oil",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud oil, offered in 3 ml, 6 ml and 12 ml sizes.",
+    "descriptionAr": "دهن عود متوفر بأحجام ٣ و٦ و١٢ مل.",
+    "images": [
+      "/assets/dehnal-oud-hindi-khaas-al-khaas-0.webp"
+    ],
+    "source": "https://raeesaloud.com/products/dehnal-oud-hindi-khaas-al-khaas",
+    "variants": [
+      {
+        "id": "51485097492763",
+        "label": "3ML",
+        "price": 30000,
+        "available": true
+      },
+      {
+        "id": "51485097525531",
+        "label": "6ML",
+        "price": 60000,
+        "available": true
+      },
+      {
+        "id": "51485097558299",
+        "label": "12ML",
+        "price": 120000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "fawah",
+    "name": "Fawah",
+    "nameAr": "فواح",
+    "category": "muttar",
+    "family": "unclassified",
+    "notes": [],
+    "notesAr": [],
+    "description": "Explore the Oud Muttar collection.",
+    "descriptionAr": "اكتشف مجموعة العود المعطر.",
+    "images": [
+      "/assets/fawah-0.webp",
+      "/assets/fawah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/fawah",
+    "variants": [
+      {
+        "id": "51485097001243",
+        "label": "Standard",
+        "price": 12000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "fannan",
+    "name": "Fannan",
+    "nameAr": "فنان",
+    "category": "muttar",
+    "family": "unclassified",
+    "notes": [],
+    "notesAr": [],
+    "description": "Explore the Oud Muttar collection.",
+    "descriptionAr": "اكتشف مجموعة العود المعطر.",
+    "images": [
+      "/assets/fannan-0.webp",
+      "/assets/fannan-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/fannan",
+    "variants": [
+      {
+        "id": "51485096444187",
+        "label": "Standard",
+        "price": 12000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "visa-muri",
+    "name": "Visa Muri",
+    "nameAr": "فيزا موري",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/visa-muri-0.webp",
+      "/assets/visa-muri-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/visa-muri",
+    "variants": [
+      {
+        "id": "51483419869467",
+        "label": "1 Tola (12 grams)",
+        "price": 35000,
+        "available": true
+      },
+      {
+        "id": "51483419902235",
+        "label": "5 Tola (60 grams)",
+        "price": 150000,
+        "available": true
+      },
+      {
+        "id": "51483419935003",
+        "label": "10 Tola (120 grams)",
+        "price": 280000,
+        "available": true
+      },
+      {
+        "id": "51483419967771",
+        "label": "250 grams",
+        "price": 450000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "seyufi-salla-naqwah",
+    "name": "Seyufi Salla Naqwah",
+    "nameAr": "سيوفي صلة نقوة",
+    "category": "oud",
+    "family": "spiced",
+    "notes": [
+      "Saffron-like",
+      "Oudy"
+    ],
+    "notesAr": [
+      "زعفراني",
+      "عودي"
+    ],
+    "description": "Oud wood with a saffron-like character.",
+    "descriptionAr": "خشب عود بطابع زعفراني.",
+    "images": [
+      "/assets/seyufi-salla-naqwah-0.webp",
+      "/assets/seyufi-salla-naqwah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/seyufi-salla-naqwah",
+    "variants": [
+      {
+        "id": "51483413938459",
+        "label": "1 Tola (12 grams)",
+        "price": 20000,
+        "available": true
+      },
+      {
+        "id": "51483413971227",
+        "label": "5 Tola (60 grams)",
+        "price": 90000,
+        "available": true
+      },
+      {
+        "id": "51483414003995",
+        "label": "10 Tola (120 grams)",
+        "price": 150000,
+        "available": true
+      },
+      {
+        "id": "51483414036763",
+        "label": "250 grams",
+        "price": 250000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "muri-double-super",
+    "name": "Muri Fakhir",
+    "nameAr": "موري فاخر",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/muri-double-super-0.webp",
+      "/assets/muri-double-super-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/muri-double-super",
+    "variants": [
+      {
+        "id": "51483412398363",
+        "label": "1 Tola (12 grams)",
+        "price": 20000,
+        "available": true
+      },
+      {
+        "id": "51483412431131",
+        "label": "5 Tola (60 grams)",
+        "price": 65000,
+        "available": true
+      },
+      {
+        "id": "51483412463899",
+        "label": "10 Tola (120 grams)",
+        "price": 120000,
+        "available": true
+      },
+      {
+        "id": "51483412496667",
+        "label": "250 grams",
+        "price": 225000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "mini-visa-muri",
+    "name": "Mini Visa Muri",
+    "nameAr": "ميني فيزا موري",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/mini-visa-muri-0.webp",
+      "/assets/mini-visa-muri-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/mini-visa-muri",
+    "variants": [
+      {
+        "id": "51483399946523",
+        "label": "Standard",
+        "price": 20000,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": "manipur-zura-triple-super",
+    "name": "Zura Malaki",
+    "nameAr": "زورا ملكي",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/manipur-zura-triple-super-0.webp",
+      "/assets/manipur-zura-triple-super-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/manipur-zura-triple-super",
+    "variants": [
+      {
+        "id": "51483379400987",
+        "label": "1 Tola (12 grams)",
+        "price": 45000,
+        "available": true
+      },
+      {
+        "id": "51483379433755",
+        "label": "5 Tola (60 grams)",
+        "price": 225000,
+        "available": true
+      },
+      {
+        "id": "51483379466523",
+        "label": "10 Tola (120 grams)",
+        "price": 400000,
+        "available": true
+      },
+      {
+        "id": "51483379499291",
+        "label": "250 grams",
+        "price": 750000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "king-muri-munasibat",
+    "name": "King Muri Munasibat",
+    "nameAr": "كينغ موري مناسبات",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/king-muri-munasibat-0.webp",
+      "/assets/king-muri-munasibat-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/king-muri-munasibat",
+    "variants": [
+      {
+        "id": "51483350958363",
+        "label": "1 Tola (12 grams)",
+        "price": 25000,
+        "available": true
+      },
+      {
+        "id": "51483350991131",
+        "label": "5 Tola (60 grams)",
+        "price": 110000,
+        "available": true
+      },
+      {
+        "id": "51483351023899",
+        "label": "10 Tola (120 grams)",
+        "price": 200000,
+        "available": true
+      },
+      {
+        "id": "51483351056667",
+        "label": "250 grams",
+        "price": 320000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "digga-muri-naqwah",
+    "name": "Digga Muri",
+    "nameAr": "دقة موري",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/digga-muri-naqwah-0.webp",
+      "/assets/digga-muri-naqwah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/digga-muri-naqwah",
+    "variants": [
+      {
+        "id": "51483342635291",
+        "label": "50 grams",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51483342668059",
+        "label": "100 grams",
+        "price": 90000,
+        "available": true
+      },
+      {
+        "id": "51483342700827",
+        "label": "250 grams",
+        "price": 200000,
+        "available": true
+      },
+      {
+        "id": "51483342733595",
+        "label": "500 Grams",
+        "price": 350000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "char-gaf",
+    "name": "Char Gaf",
+    "nameAr": "شار جاف",
+    "category": "oud",
+    "family": "sweet",
+    "notes": [
+      "Sweet",
+      "Oudy"
+    ],
+    "notesAr": [
+      "حلو",
+      "عودي"
+    ],
+    "description": "Sweet oud wood, offered in several weights.",
+    "descriptionAr": "خشب عود حلو الطابع، متوفر بأوزان مختلفة.",
+    "images": [
+      "/assets/char-gaf-0.webp",
+      "/assets/char-gaf-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/char-gaf",
+    "variants": [
+      {
+        "id": "51483334836507",
+        "label": "1 Tola (12 grams)",
+        "price": 7500,
+        "available": true
+      },
+      {
+        "id": "51483334869275",
+        "label": "5 Tola (60 grams)",
+        "price": 35000,
+        "available": true
+      },
+      {
+        "id": "51483334902043",
+        "label": "10 Tola (120 grams)",
+        "price": 60000,
+        "available": true
+      },
+      {
+        "id": "51483334934811",
+        "label": "250 grams",
+        "price": 100000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "ball-muri-naqwah",
+    "name": "Bol Muri Naqwah",
+    "nameAr": "بول موري نقوة",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/ball-muri-naqwah-0.webp",
+      "/assets/ball-muri-naqwah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/ball-muri-naqwah",
+    "variants": [
+      {
+        "id": "51483327234331",
+        "label": "1 Tola (12 grams)",
+        "price": 25000,
+        "available": true
+      },
+      {
+        "id": "51483327267099",
+        "label": "5 Tola (60 grams)",
+        "price": 110000,
+        "available": true
+      },
+      {
+        "id": "51483327299867",
+        "label": "10 Tola (120 grams)",
+        "price": 180000,
+        "available": true
+      },
+      {
+        "id": "51483327332635",
+        "label": "250 grams",
+        "price": 300000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "baby-salla",
+    "name": "Baby Salla",
+    "nameAr": "بيبي صلة",
+    "category": "oud",
+    "family": "oud",
+    "notes": [],
+    "notesAr": [],
+    "description": "Oud wood. Choose the weight that suits your ritual.",
+    "descriptionAr": "خشب عود. اختر الوزن المناسب لطقوسك.",
+    "images": [
+      "/assets/baby-salla-0.webp",
+      "/assets/baby-salla-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/baby-salla",
+    "variants": [
+      {
+        "id": "51483318878491",
+        "label": "1 Tola (12 grams)",
+        "price": 11000,
+        "available": true
+      },
+      {
+        "id": "51483318911259",
+        "label": "5 Tola (60 grams)",
+        "price": 50000,
+        "available": true
+      },
+      {
+        "id": "51483318944027",
+        "label": "10 Tola (120 grams)",
+        "price": 85000,
+        "available": true
+      },
+      {
+        "id": "51483318976795",
+        "label": "250 grams",
+        "price": 150000,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "leather-oud",
+    "name": "Leather Oud",
+    "nameAr": "ليذر عود",
+    "category": "perfume",
+    "family": "woody",
+    "notes": [
+      "Oud",
+      "Leather",
+      "Patchouli"
+    ],
+    "notesAr": [
+      "عود",
+      "جلد",
+      "باتشولي"
+    ],
+    "description": "Oud with leather, patchouli and amber notes.",
+    "descriptionAr": "عود مع نفحات الجلد والباتشولي والعنبر.",
+    "images": [
+      "/assets/leather-oud-0.webp",
+      "/assets/leather-oud-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/leather-oud",
+    "variants": [
+      {
+        "id": "51483279294747",
+        "label": "Standard",
+        "price": 9900,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "izzah",
+    "name": "IZZAH",
+    "nameAr": "عزة",
+    "category": "perfume",
+    "family": "spiced",
+    "notes": [
+      "Cardamom",
+      "Cinnamon",
+      "Sandalwood"
+    ],
+    "notesAr": [
+      "هيل",
+      "قرفة",
+      "صندل"
+    ],
+    "description": "Spiced woods, cardamom and sandalwood.",
+    "descriptionAr": "أخشاب متبلة مع الهيل وخشب الصندل.",
+    "images": [
+      "/assets/izzah-0.webp",
+      "/assets/izzah-1.webp"
+    ],
+    "source": "https://raeesaloud.com/products/izzah",
+    "variants": [
+      {
+        "id": "51483248558363",
+        "label": "Standard",
+        "price": 30000,
+        "available": false
+      }
+    ]
+  }
+]
