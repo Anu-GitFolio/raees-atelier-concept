@@ -7,10 +7,9 @@ const source = join(destination, "raees-atelier");
 await mkdir(source, { recursive: true });
 
 const entries = [
-  ".env.example", ".gitignore", "README.md", "package.json", "package-lock.json",
+  ".env.example", ".gitignore", "README.md", "CREDITS.md", "package.json", "package-lock.json",
   "wrangler.jsonc", "wrangler.production.jsonc", "drizzle.config.js",
-  "db", "docs", "drizzle", "public", "server", "tests",
-  "research/PAGE-INVENTORY.md",
+  "db", "drizzle", "public", "server", "tests",
 ];
 for (const entry of entries) {
   await cp(resolve(entry), join(source, entry), {

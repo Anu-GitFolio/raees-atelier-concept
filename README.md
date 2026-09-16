@@ -1,14 +1,16 @@
-# Raees Al Oud — Independent commerce concept
+# Raees Atelier
 
-[Open the review site](https://raees-atelier-concept.raees-atelier-concept.workers.dev)
+A bilingual fragrance discovery and shopping demo built with HTML, CSS and JavaScript, backed by a Cloudflare Worker and D1.
 
-A working portfolio study of fragrance discovery and return visits. Vanilla HTML, CSS and JavaScript in the browser; a JavaScript Cloudflare Worker and SQLite-compatible D1 database on the server. No frontend framework and no production runtime npm dependencies.
+[Open the site](https://raees-atelier-concept.raees-atelier-concept.workers.dev)
 
-This is unaffiliated with Raees Al Oud. It does not take payments, send messages, create real customer accounts or ship products.
+Browse 29 fragrances and oud products, choose variants, save favourites, or use the scent finder to narrow the collection by notes, form and budget. The bag, preferences and demo order history persist between visits in the same browser. Orders can be added back to the bag for another checkout.
 
-## Run locally
+This is an independent project, unaffiliated with Raees Al Oud. Checkout records demo orders only; it does not take payments or arrange delivery.
 
-Requires Node.js 22.12+ (Node 24 LTS recommended) and npm.
+## Local development
+
+Requires Node.js 22.12 or later and npm.
 
 ```sh
 npm ci
@@ -16,52 +18,57 @@ npm run db:migrate
 npm run dev
 ```
 
-Open http://127.0.0.1:8787. The local D1 database persists under `.wrangler/state`. No Cloudflare login, external API key, or payment credentials are needed for local operation.
+Open `http://127.0.0.1:8787`. Wrangler creates the local database under `.wrangler/state`. Local development does not need a Cloudflare login or API keys.
+
+## Tests and builds
+
+Keep the development server running for the API tests:
 
 ```sh
-npm test              # API integration tests; keep the dev server running
-npm run build         # Minified frontend and Worker output
-npm audit             # Dependency advisory check
-npm run db:generate   # Generate a migration after schema edits
+npm test
+npm run build
 ```
 
-The browser audit at `/__qa/` is development-only. Run `npm run qa:prepare` first to provide its local axe script, then use its buttons for accessibility and responsive checks. Audit pages and scripts are excluded from production builds.
+The integration tests cover visitor isolation, bag validation, server-calculated prices, stale updates, duplicate checkout requests, order history, reorder and deletion.
 
-## Working features
+For browser checks, run `npm run qa:prepare` and open `/__qa/` on the local server. The audit tools check accessibility and responsive layouts and are excluded from the production build. Existing browser coverage is Chromium; Safari, Firefox and real-device checks remain outstanding.
 
-- 29 sourced catalogue references across five fragrance forms; category filtering, price sorting, EN/AR search and product galleries.
-- Variant selection and availability; server-owned pricing in integer fils.
-- Three-step scent finder with transparent, deterministic matches, budget filtering and honest no-match alternatives.
-- Persistent saved products, scent preferences, cart, simulated orders and reordering, isolated by visitor.
-- English and Arabic through the full journey, including dialogs, errors, empty states and checkout.
-- Responsive layouts, reduced motion, native accessible dialogs, keyboard focus restoration and status announcements.
-- Reset deletes the visitor's database session and cascades to its demo orders.
+## Code layout
 
-## Project map
-
-| Location | Responsibility |
+| Path | Purpose |
 | --- | --- |
-| `public/index.html` | HTML shell, metadata, local fonts and assets |
-| `public/app.js` | Router, bilingual rendering and UI interactions |
-| `public/style.css` | Tokens, responsive design, animation and RTL |
-| `server/index.js` | API routing, visitor isolation, validation and order writes |
-| `server/domain.js` | Catalogue validation and authoritative totals |
-| `server/catalog.json` | Curated snapshot of product data, with source links |
-| `db/schema.ts` | Drizzle schema used only to generate SQL migrations |
-| `drizzle/` | Versioned database migrations |
-| `tests/api.test.mjs` | End-to-end HTTP/database integration checks |
-| `docs/CASE-STUDY.md` | Research, design decisions, iterations and measurement plan |
-| `docs/HANDOFF.md` | Backend architecture, production boundaries and integration plan |
-| `docs/VALIDATION.md` | What was actually tested and its limitations |
+| `public/app.js` | Routing, English and Arabic views, event handlers and API requests |
+| `public/style.css` | Layout, typography, motion and right-to-left styles |
+| `server/index.js` | API routes, sessions and database writes |
+| `server/domain.js` | Product validation and price calculations |
+| `server/catalog.json` | Product and variant snapshot with source links |
+| `db/schema.ts` | Database schema |
+| `drizzle/` | SQL migrations |
+| `tests/` | HTTP integration tests |
 
-## Important boundaries
+The browser renders the pages and sends changes to the Worker. D1 stores anonymous sessions and orders; product data comes from the bundled catalogue. Drizzle generates migrations, while request handlers use prepared SQL directly.
 
-Prices and availability are reference data reviewed on 16 September 2026, not a live Shopify integration. Checkout uses an explicit AED 25 delivery assumption, free at AED 1,000 subtotal, with a 5% VAT-inclusive demo calculation. No claim is made that these are the business's approved commercial terms.
+Prices are integer fils and are always looked up on the server. Writes include a revision number so an older tab cannot silently overwrite newer state. Checkout uses a per-session idempotency key and a unique database constraint to prevent a retried request from creating a second order.
 
-Session records last 30 days in this browser; clearing cookies loses access. There is no account or cross-device recovery. Production would need approved customer identity, retention processes, verified policies, authorized product assets, native Arabic editorial review, and integrations with the existing commerce system.
+The session cookie is HTTP-only, SameSite Strict and Secure on HTTPS. The database stores its hash. Sessions expire after 30 days, and reset deletes the session and its orders. There are no customer accounts or cross-device recovery.
 
-See `docs/ASSETS.md` for image and font provenance. The hero is an illustrative editorial still life; product photographs belong to their respective owners.
+## Deploy
 
-## Hosting and source review
+The production configuration is in `wrangler.production.jsonc`. For a separate deployment, change the Worker name, create a D1 database and put its ID in the `DB` binding:
 
-See [deployment instructions](docs/DEPLOYMENT.md) for the Cloudflare Workers and D1 setup. The production deployment uses `wrangler.production.jsonc` and the optimized build. `npm run review:package` prepares a portable source archive with the application, tests and documentation.
+```sh
+npx wrangler login
+npx wrangler d1 create your-database-name
+npm run db:migrate:production
+npm run deploy
+```
+
+Apply new migrations before deploying code that depends on them. `npm run build` writes the browser assets to `dist/client` and the Worker to `dist/server`. `npm run review:package` creates a source archive under `artifacts/`, excluding dependencies, local database records and credentials.
+
+## Catalogue and demo rules
+
+Product data was checked on 16 September 2026 and is not connected to live inventory. The demo uses AED 25 delivery below an AED 1,000 subtotal and a 5% VAT-inclusive calculation. These are demo assumptions, not the merchant's approved terms.
+
+A commercial launch would need an authorised commerce integration, confirmed pricing and policies, payment processing, inventory and fulfilment. Arabic copy also needs native editorial review.
+
+Image sources and font licences are listed in [CREDITS.md](CREDITS.md).

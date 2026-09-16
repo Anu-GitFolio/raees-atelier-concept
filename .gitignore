@@ -8,6 +8,7 @@ playwright-report/
 artifacts/
 research/raw/
 research/*.json
+research/PAGE-INVENTORY.md
 public/axe.min.js
 .dev.vars*
 *.log
